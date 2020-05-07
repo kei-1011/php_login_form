@@ -54,3 +54,25 @@ form {
   font-weight: bold;
   font-size: 13px;
 }
+
+
+form#logout {
+  text-align: right;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+form#logout .row {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+ul li {
+  padding: 5px;
+}

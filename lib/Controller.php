@@ -54,4 +54,9 @@ class Controller {
     // セットされている、かつ空でなかったとき
     return isset($_SESSION['me']) && !empty($_SESSION['me']);
   }
+
+  // ログインしていたら、セッションのmeの値を返す
+  public function me() {
+    return $this->isLoggedIn() ? $_SESSION['me'] : null;
+}
 }
